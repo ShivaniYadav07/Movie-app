@@ -1,0 +1,50 @@
+$bg: rgb(16, 16, 16);
+
+.banner{
+    height: 400px;
+    background-color: $bg;  
+    padding-bottom: 30px;
+    
+    > h3{
+        color: white;
+    }
+}
+
+.Slider {
+    > .img{
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+.row{
+padding: 2rem;
+background-color: $bg;
+> h2{
+    color: white;
+    font-weight: 400;
+    margin: 1.2rem;
+}
+> div{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+
+}
+
+.card{
+    width: 200px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: transform 0s;
+    border-radius: 40px;
+    &:hover{
+        transform: translateY(-5px) scale(1.02);
+        border: 3px solid rgb(62, 62, 224);
+    }
+}
