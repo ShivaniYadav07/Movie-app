@@ -1,0 +1,37 @@
+.lower {
+    background-color: rgb(16, 16, 16);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        cursor: pointer;
+  
+        svg {
+          color: #ed4545;
+          font-size: 25px;
+        }
+  
+        a {
+          text-decoration: none;
+          font-size: 15px;
+          color: #ed4545;
+          display: flex;
+          flex-direction: column;
+    align-items: center;
+        }
+      }
+    }
+}
+  
+  

@@ -1,16 +1,14 @@
 .header{
     height: 100px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(16, 16, 16);
     padding-left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-
- > img{
-    position: absolute;
-    top: 2%;
-}
+   > img{
+      position: absolute;
+      top: 2%;
+    }
 }
  .nav-head{
     list-style: none;
@@ -22,6 +20,7 @@
         border: 1px solid white;
     border-radius: 45px;
     margin-right: 45px;
+    cursor: pointer;
     }
      > li > a {
         color: white;

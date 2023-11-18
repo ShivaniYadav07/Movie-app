@@ -1,9 +1,9 @@
 $bg: rgb(16, 16, 16);
 
 .banner{
-    height: 400px;
+    height: 500px;
     background-color: $bg;  
-    padding-bottom: 30px;
+    padding: 50px 0px;
     
     > h3{
         color: white;
@@ -46,5 +46,29 @@ background-color: $bg;
     &:hover{
         transform: translateY(-5px) scale(1.02);
         border: 3px solid rgb(62, 62, 224);
+    }
+}
+
+
+.genreBox{
+    overflow-x: auto;
+    display: flex;
+    height: 100px;
+    background-color: $bg;
+
+    > a{
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        padding: 1rem 0;
+        transition: all 0.5s;
+        margin: 1rem;
+        text-decoration: none;
+        min-width: 10rem;
+        text-align: center;
+
+        &:hover{
+            background-color: rgb(238, 229, 229);
+        }
     }
 }

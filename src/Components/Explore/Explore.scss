@@ -1,0 +1,131 @@
+  html,body{
+      margin: 0;
+      // padding: 0;
+      height: 100%;
+      background-color: rgb(16, 16, 16);
+      color: white;
+  }
+
+  .explore{
+      background-color: rgb(16, 16, 16);
+      padding: 50px;
+      height: 100%;
+      
+  }
+  .explore-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      > h1{
+          color: white;
+          text-align: center;
+          padding: 50px;
+      }
+    }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  
+  
+ > input {
+  padding: 35px;
+  font-size: 19px;
+  border: 1px solid #ddd;
+  background-color: rgb(16, 16, 16);
+  border-radius: 40px;
+  margin-right: 22px;
+  outline: none;
+  width: 250px;
+  color:white ;
+ }
+  
+  > button {
+   padding: 10px;
+  background-color: #b94332;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  > svg {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-weight: bold;
+  
+    
+  }
+}
+> button:hover {
+background-color: #c0392b;
+}
+  
+   
+
+}
+  
+  
+  
+  
+  
+  .search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-results li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .hero-explore{
+    background-color: rgb(16, 16, 16);
+    height: 90px;
+  }
+  .movie-card{
+    padding: 50px;
+    > img{
+      height: 300px;
+      border-radius: 40px;
+    }
+  }
+  h3{
+    color: #ddd;
+  }
+  
+  .search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  .movie-card {
+    /* Your movie card styles */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+    }
+  }
+  
+
+

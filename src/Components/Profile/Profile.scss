@@ -1,0 +1,77 @@
+/* Profile.scss */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    > svg {
+      font-size: 100px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .advance {
+    border: 0.5px solid rgb(177, 173, 173);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .detail > svg {
+    margin-right: 30px;
+  }
+
+  > button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c; /* Set your preferred color */
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  > button:hover {
+    background-color: #c0392b; /* Set your preferred hover color */
+  }
+
+  @media (max-width: 734px) {
+    /* Add responsive styles for screens with a width of 734 pixels or less */
+
+    .profile {
+      margin: 0px;
+
+      .user-info {
+        margin: 0px;
+
+        > svg {
+          font-size: 60px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .advance {
+        margin: 10px;
+      }
+
+      
+    }
+  }
+}
